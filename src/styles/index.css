@@ -11,12 +11,14 @@
 
 body {
 	background-color: #22394B;
+	color: white;
 	font-family: "Libre Franklin", sans-serif;
 	margin: 0;
 }
 
 #converter {
 	background-color: transparent;
+	color: white;
 	border: 1px solid white;
 	border-radius: 7px;
 	margin: 0 auto;
