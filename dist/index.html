@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Weather App</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+	<nav>
+		<div id="searchDiv">
+			<label for="searchBar" id="searchLabel">Location:
+				<input id="searchBar" name="searchBar">
+			</label>
+			<button id="searchBtn">🔍</button>
+		</div>
+		<span id="date"></span>
+		<span>Powered by: <a href="https://openweathermap.org/">OpenWeather</a> and <a href="https://pixabay.com">Pixabay</a>.</span>
+	</nav>
+	<img src="https://www.elegantthemes.com/blog/wp-content/uploads/2019/10/loading-screen-featured-image.jpg" id="background">
+	<main class="celsius">
+		<h3>London, GB</h3>
+		<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" id="icon">
+		<div id="temp">
+			<h1>°C</h1>
+			<div id="maxmin">
+				<h4 id ="max">°C</h4>
+				<h4 id="min">°C</h4>
+			</div>
+		</div>
+		<button id="converter">°C⟷°F</button>
+		<h2>...</h2>
+	</main>
+	<script src="main.js"></script>
+</body>
+
+</html>

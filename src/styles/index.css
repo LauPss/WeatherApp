@@ -1,0 +1,138 @@
+#background {
+	left: 0;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	object-fit: cover;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+body {
+	background-color: #22394B;
+	font-family: "Libre Franklin", sans-serif;
+	margin: 0;
+}
+
+#converter {
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 7px;
+	margin: 0 auto;
+	padding: 2px 6px 2px 4px;
+}
+
+#converter:hover {
+	background-color: white;
+	color: black;
+}
+
+#date {
+	color: white;
+	font-size: 11pt;
+	font-style: normal;
+}
+
+h1 {
+	display: inline-flex;
+	font-size: 70pt;
+	font-weight: 400;
+	margin: 0;
+}
+
+h2 {
+	font-size: 24pt;
+	font-weight: 400;
+	margin: 55px auto 0 auto;
+	text-transform: capitalize;
+}
+
+h3 {
+	font-size: 20pt;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+h4 {
+	font-size: 14pt;
+	margin: 5px 0;
+}
+
+#icon {
+	width: 100px;
+	margin: 0 auto;
+}
+
+main {
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	margin: 10px auto 0 auto;
+	text-align: center;
+	width: 30%;
+}
+
+#max {
+	color: tomato;
+	margin: 15px 0;
+}
+
+#maxmin {
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 10px;
+	text-align: left;
+}
+
+#min {
+	color: paleturquoise;
+}
+
+nav {
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	height: 30px;
+	justify-content: space-between;
+}
+
+#searchBar {
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	margin-left: 10px;
+}
+
+#searchBtn {
+	background-color: transparent;
+	border: none;
+}
+
+#searchDiv {
+	display: inline-flex;
+}
+
+#searchLabel {
+	margin-left: 10px;
+}
+
+span {
+	color: grey;
+	font-size: 9px;
+	font-style: italic;
+	margin-right: 10px;
+}
+
+span a {
+	color: grey;
+}
+
+#temp {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
